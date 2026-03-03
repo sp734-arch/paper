@@ -1,0 +1,2890 @@
+{
+  "timestamp": "2026-02-24T14:05:56.861558",
+  "prefix": "cross_lingual_real",
+  "kcl_30s_mode": false,
+  "pd_results": [
+    {
+      "task": "pd_loso_subject_level",
+      "cohort": "English",
+      "n_subjects_evaluated": 67,
+      "n_hc": 31,
+      "n_pd": 36,
+      "auroc": 0.6469534050179212,
+      "accuracy": 0.5671641791044776,
+      "balanced_accuracy": 0.5658602150537635,
+      "sensitivity": 0.5833333333333334,
+      "specificity": 0.5483870967741935,
+      "confusion_matrix": {
+        "tn": 17,
+        "fp": 14,
+        "fn": 15,
+        "tp": 21
+      },
+      "subject_results": [
+        {
+          "fold": 1,
+          "test_subject": "English::AH_064F",
+          "true_label": 0,
+          "pred_score": 0.5593229900242189,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 2,
+          "test_subject": "English::AH_114S",
+          "true_label": 0,
+          "pred_score": 0.31154828973589055,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 3,
+          "test_subject": "English::AH_121A",
+          "true_label": 0,
+          "pred_score": 0.5196245445513871,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 4,
+          "test_subject": "English::AH_123G",
+          "true_label": 0,
+          "pred_score": 0.5636752750877448,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 5,
+          "test_subject": "English::AH_195B",
+          "true_label": 0,
+          "pred_score": 0.5257740058171456,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 58,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 6,
+          "test_subject": "English::AH_197T",
+          "true_label": 0,
+          "pred_score": 0.30681123493409357,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 7,
+          "test_subject": "English::AH_264Z",
+          "true_label": 0,
+          "pred_score": 0.6482185646855294,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 58,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 8,
+          "test_subject": "English::AH_322A",
+          "true_label": 0,
+          "pred_score": 0.4921486737521125,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 58,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 9,
+          "test_subject": "English::AH_325A",
+          "true_label": 0,
+          "pred_score": 0.3142985193333522,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 10,
+          "test_subject": "English::AH_333L",
+          "true_label": 0,
+          "pred_score": 0.5347672020072488,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 58,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 11,
+          "test_subject": "English::AH_378G",
+          "true_label": 0,
+          "pred_score": 0.25845034175444087,
+          "n_slices": 4,
+          "n_train_subjects": 66,
+          "n_train_hc": 57,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 12,
+          "test_subject": "English::AH_444B",
+          "true_label": 0,
+          "pred_score": 0.486232675138099,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 13,
+          "test_subject": "English::AH_469Z",
+          "true_label": 0,
+          "pred_score": 0.5132126526865326,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 14,
+          "test_subject": "English::AH_473R",
+          "true_label": 0,
+          "pred_score": 0.46344755051178765,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 15,
+          "test_subject": "English::AH_501F",
+          "true_label": 0,
+          "pred_score": 0.32892606316444134,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 16,
+          "test_subject": "English::AH_523T",
+          "true_label": 0,
+          "pred_score": 0.6781193257001084,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 17,
+          "test_subject": "English::AH_528T",
+          "true_label": 0,
+          "pred_score": 0.7132354083074786,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 18,
+          "test_subject": "English::AH_538M",
+          "true_label": 0,
+          "pred_score": 0.304494860595096,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 19,
+          "test_subject": "English::AH_545616858-3A749CBC-3FEB-4D35-820E-E45C3E5B9B6A",
+          "true_label": 1,
+          "pred_score": 0.6203285951161245,
+          "n_slices": 4,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 82
+        },
+        {
+          "fold": 20,
+          "test_subject": "English::AH_545622717-461DFFFE-54AF-42AF-BA78-528BD505D624",
+          "true_label": 1,
+          "pred_score": 0.24477752172114015,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 21,
+          "test_subject": "English::AH_545622719-52C23861-6E0D-41E0-A3D8-9358C28C019B",
+          "true_label": 1,
+          "pred_score": 0.4753895960242763,
+          "n_slices": 4,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 82
+        },
+        {
+          "fold": 22,
+          "test_subject": "English::AH_545622720-E1486AF6-8C95-47EB-829B-4D62698C987A",
+          "true_label": 1,
+          "pred_score": 0.2398455022979032,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 23,
+          "test_subject": "English::AH_545622722-3C79DA68-36BB-43A2-B29C-61AEF480E07E",
+          "true_label": 1,
+          "pred_score": 0.4671106101461131,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 83
+        },
+        {
+          "fold": 24,
+          "test_subject": "English::AH_545629296-C2C009C6-8C17-42EA-B6BE-362942FC4692",
+          "true_label": 1,
+          "pred_score": 0.6514710520237733,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 83
+        },
+        {
+          "fold": 25,
+          "test_subject": "English::AH_545643618-82A143AC-B643-4273-A923-C42A83AEEC5F",
+          "true_label": 1,
+          "pred_score": 0.5591685293992369,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 26,
+          "test_subject": "English::AH_545648867-CB17D873-1CEA-492A-B5B0-93C7463F516C",
+          "true_label": 1,
+          "pred_score": 0.4345563111454783,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 27,
+          "test_subject": "English::AH_545692309-EA8C4DC0-9B2A-4CC7-A490-851A2129A733",
+          "true_label": 1,
+          "pred_score": 0.5438115651428396,
+          "n_slices": 5,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 81
+        },
+        {
+          "fold": 28,
+          "test_subject": "English::AH_545692315-C2972597-9AEC-4060-A186-F1F59340640C",
+          "true_label": 1,
+          "pred_score": 0.4932368518723522,
+          "n_slices": 4,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 82
+        },
+        {
+          "fold": 29,
+          "test_subject": "English::AH_545713221-1E77C030-4558-4A88-B1A2-6AB777ACAE61",
+          "true_label": 1,
+          "pred_score": 0.7857848883526034,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 30,
+          "test_subject": "English::AH_545713222-DA13DC3A-F24B-454E-984F-19DF19328D39",
+          "true_label": 1,
+          "pred_score": 0.40082025439460434,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 31,
+          "test_subject": "English::AH_545713223-E6D59EE5-4C3F-4B40-AE8F-0657EF94DB66",
+          "true_label": 1,
+          "pred_score": 0.4670567178976071,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 32,
+          "test_subject": "English::AH_545713224-1B3708B0-8792-4FEE-B03B-C7CB9CB03D58",
+          "true_label": 1,
+          "pred_score": 0.3732683776116573,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 33,
+          "test_subject": "English::AH_545743929-E2EAE1A3-7E46-4DCF-8DB7-37A5CA47DB9D",
+          "true_label": 1,
+          "pred_score": 0.4764179917865429,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 34,
+          "test_subject": "English::AH_545753013-FCFF8F46-08FF-4C87-B443-D2039E5DA945",
+          "true_label": 1,
+          "pred_score": 0.6994079445893587,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 35,
+          "test_subject": "English::AH_545753014-C68926CC-AB91-49AF-90A6-BB5C434283DB",
+          "true_label": 1,
+          "pred_score": 0.4908615830296398,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 36,
+          "test_subject": "English::AH_545753015-58CAA743-BA9A-47E0-B9EF-CC35E9EFB839",
+          "true_label": 1,
+          "pred_score": 0.8297813568025334,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 37,
+          "test_subject": "English::AH_545789668-A4F6069C-5E1A-49F5-9EDC-59C6EB833E42",
+          "true_label": 1,
+          "pred_score": 0.5354207648495768,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 38,
+          "test_subject": "English::AH_545789670-C297FD53-BF71-4183-86A0-58E5E1EB0DF8",
+          "true_label": 1,
+          "pred_score": 0.4369218630098721,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 39,
+          "test_subject": "English::AH_545789671-794D2256-DDFF-4009-8BA8-8A306C8FA14F",
+          "true_label": 1,
+          "pred_score": 0.6170693120271524,
+          "n_slices": 5,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 81
+        },
+        {
+          "fold": 40,
+          "test_subject": "English::AH_545789674-53885025-35F1-48C1-9826-BAAEB8BEAF58",
+          "true_label": 1,
+          "pred_score": 0.6992549925744769,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 41,
+          "test_subject": "English::AH_545789675-243F18DB-4432-4C87-B12C-6EEC2D2D30D6",
+          "true_label": 1,
+          "pred_score": 0.6117102213315766,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 42,
+          "test_subject": "English::AH_545789680-7FF9D4F1-DDCC-4CB6-8668-76530D670FA5",
+          "true_label": 1,
+          "pred_score": 0.8487458714382656,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 43,
+          "test_subject": "English::AH_545789682-7554E0C7-4E25-49C3-9E6C-04D525455E28",
+          "true_label": 1,
+          "pred_score": 0.43479835077485945,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 44,
+          "test_subject": "English::AH_545789690-DA26461A-AF40-4A43-9662-3A93EE872359",
+          "true_label": 1,
+          "pred_score": 0.5461506106580427,
+          "n_slices": 5,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 81
+        },
+        {
+          "fold": 45,
+          "test_subject": "English::AH_545806325-8A17002B-CFD3-4DCF-8854-04F0F2BFF21B",
+          "true_label": 1,
+          "pred_score": 0.6639445953813284,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 46,
+          "test_subject": "English::AH_545806326-BD0FE665-1AD5-4F55-8342-0FAB8B15680B",
+          "true_label": 1,
+          "pred_score": 0.6246028442727966,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 83
+        },
+        {
+          "fold": 47,
+          "test_subject": "English::AH_545812844-DFBCDA22-CADB-444A-9623-16A39D45E9E7",
+          "true_label": 1,
+          "pred_score": 0.5385204769993468,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 83
+        },
+        {
+          "fold": 48,
+          "test_subject": "English::AH_545812846-0C14B32A-6C50-4B62-BC89-0A815C2DEEFA",
+          "true_label": 1,
+          "pred_score": 0.5598560249553612,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 84
+        },
+        {
+          "fold": 49,
+          "test_subject": "English::AH_545841221-6FC57E6E-65B6-4859-A15A-55856D7E75C0",
+          "true_label": 1,
+          "pred_score": 0.7145869542675414,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 50,
+          "test_subject": "English::AH_545841222-DE5AEF27-7F4E-45A4-BF7D-9E87E7A786AE",
+          "true_label": 1,
+          "pred_score": 0.5221018562174945,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 51,
+          "test_subject": "English::AH_545841223-24FB0419-5BAE-4F9C-8EBC-CD62DA6590D2",
+          "true_label": 1,
+          "pred_score": 0.6854526233603696,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 83
+        },
+        {
+          "fold": 52,
+          "test_subject": "English::AH_545841226-C699FC9E-1E0C-474D-A12A-936DD92B8980",
+          "true_label": 1,
+          "pred_score": 0.3917403367692567,
+          "n_slices": 6,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 80
+        },
+        {
+          "fold": 53,
+          "test_subject": "English::AH_545847410-D1BA3BB4-1F61-44CA-ACDE-455A8E97E04B",
+          "true_label": 1,
+          "pred_score": 0.41079379177982256,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 85
+        },
+        {
+          "fold": 54,
+          "test_subject": "English::AH_545880204-EE87D3E2-0D4C-4EAA-ACD7-C3F177AFF62F",
+          "true_label": 1,
+          "pred_score": 0.5915607035964665,
+          "n_slices": 4,
+          "n_train_subjects": 66,
+          "n_train_hc": 61,
+          "n_train_pd": 82
+        },
+        {
+          "fold": 55,
+          "test_subject": "English::AH_562E",
+          "true_label": 0,
+          "pred_score": 0.20026543838840077,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 56,
+          "test_subject": "English::AH_569E",
+          "true_label": 0,
+          "pred_score": 0.5860077229333885,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 57,
+          "test_subject": "English::AH_596S",
+          "true_label": 0,
+          "pred_score": 0.4011660545311608,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 58,
+          "test_subject": "English::AH_619B",
+          "true_label": 0,
+          "pred_score": 0.5661070104599081,
+          "n_slices": 4,
+          "n_train_subjects": 66,
+          "n_train_hc": 57,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 59,
+          "test_subject": "English::AH_621N",
+          "true_label": 0,
+          "pred_score": 0.41949915756668754,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 60,
+          "test_subject": "English::AH_667J",
+          "true_label": 0,
+          "pred_score": 0.4046230228017763,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 61,
+          "test_subject": "English::AH_678A",
+          "true_label": 0,
+          "pred_score": 0.4480389279963673,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 58,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 62,
+          "test_subject": "English::AH_777G",
+          "true_label": 0,
+          "pred_score": 0.5160076756133319,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 63,
+          "test_subject": "English::AH_777R",
+          "true_label": 0,
+          "pred_score": 0.45587815284273014,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 64,
+          "test_subject": "English::AH_803T",
+          "true_label": 0,
+          "pred_score": 0.21767950709304978,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 65,
+          "test_subject": "English::AH_821C",
+          "true_label": 0,
+          "pred_score": 0.3762575274376898,
+          "n_slices": 3,
+          "n_train_subjects": 66,
+          "n_train_hc": 58,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 66,
+          "test_subject": "English::AH_888A",
+          "true_label": 0,
+          "pred_score": 0.6147140933825089,
+          "n_slices": 1,
+          "n_train_subjects": 66,
+          "n_train_hc": 60,
+          "n_train_pd": 86
+        },
+        {
+          "fold": 67,
+          "test_subject": "English::AH_904H",
+          "true_label": 0,
+          "pred_score": 0.7361358623134562,
+          "n_slices": 2,
+          "n_train_subjects": 66,
+          "n_train_hc": 59,
+          "n_train_pd": 86
+        }
+      ]
+    },
+    {
+      "task": "pd_loso_subject_level",
+      "cohort": "KCL",
+      "n_subjects_evaluated": 37,
+      "n_hc": 21,
+      "n_pd": 16,
+      "auroc": 0.4553571428571429,
+      "accuracy": 0.4594594594594595,
+      "balanced_accuracy": 0.4568452380952381,
+      "sensitivity": 0.4375,
+      "specificity": 0.47619047619047616,
+      "confusion_matrix": {
+        "tn": 10,
+        "fp": 11,
+        "fn": 9,
+        "tp": 7
+      },
+      "subject_results": [
+        {
+          "fold": 1,
+          "test_subject": "KCL::ID00",
+          "true_label": 0,
+          "pred_score": 0.4897168576672696,
+          "n_slices": 212,
+          "n_train_subjects": 36,
+          "n_train_hc": 4055,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 2,
+          "test_subject": "KCL::ID01",
+          "true_label": 0,
+          "pred_score": 0.5275760808671393,
+          "n_slices": 166,
+          "n_train_subjects": 36,
+          "n_train_hc": 4101,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 3,
+          "test_subject": "KCL::ID02",
+          "true_label": 1,
+          "pred_score": 0.4972902857538913,
+          "n_slices": 219,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2817
+        },
+        {
+          "fold": 4,
+          "test_subject": "KCL::ID03",
+          "true_label": 0,
+          "pred_score": 0.5058872521449156,
+          "n_slices": 209,
+          "n_train_subjects": 36,
+          "n_train_hc": 4058,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 5,
+          "test_subject": "KCL::ID04",
+          "true_label": 1,
+          "pred_score": 0.5055907231678198,
+          "n_slices": 142,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2894
+        },
+        {
+          "fold": 6,
+          "test_subject": "KCL::ID05",
+          "true_label": 0,
+          "pred_score": 0.5188367285778999,
+          "n_slices": 126,
+          "n_train_subjects": 36,
+          "n_train_hc": 4141,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 7,
+          "test_subject": "KCL::ID06",
+          "true_label": 1,
+          "pred_score": 0.5152614632711384,
+          "n_slices": 232,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2804
+        },
+        {
+          "fold": 8,
+          "test_subject": "KCL::ID07",
+          "true_label": 1,
+          "pred_score": 0.4924220931226274,
+          "n_slices": 224,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2812
+        },
+        {
+          "fold": 9,
+          "test_subject": "KCL::ID08",
+          "true_label": 0,
+          "pred_score": 0.4928807921318608,
+          "n_slices": 207,
+          "n_train_subjects": 36,
+          "n_train_hc": 4060,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 10,
+          "test_subject": "KCL::ID09",
+          "true_label": 0,
+          "pred_score": 0.50304754982005,
+          "n_slices": 180,
+          "n_train_subjects": 36,
+          "n_train_hc": 4087,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 11,
+          "test_subject": "KCL::ID10",
+          "true_label": 0,
+          "pred_score": 0.5038387791070292,
+          "n_slices": 193,
+          "n_train_subjects": 36,
+          "n_train_hc": 4074,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 12,
+          "test_subject": "KCL::ID11",
+          "true_label": 0,
+          "pred_score": 0.4832008540125381,
+          "n_slices": 156,
+          "n_train_subjects": 36,
+          "n_train_hc": 4111,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 13,
+          "test_subject": "KCL::ID12",
+          "true_label": 0,
+          "pred_score": 0.5086893203475014,
+          "n_slices": 191,
+          "n_train_subjects": 36,
+          "n_train_hc": 4076,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 14,
+          "test_subject": "KCL::ID13",
+          "true_label": 1,
+          "pred_score": 0.4925097382318957,
+          "n_slices": 170,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2866
+        },
+        {
+          "fold": 15,
+          "test_subject": "KCL::ID14",
+          "true_label": 0,
+          "pred_score": 0.482755913246895,
+          "n_slices": 218,
+          "n_train_subjects": 36,
+          "n_train_hc": 4049,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 16,
+          "test_subject": "KCL::ID15",
+          "true_label": 0,
+          "pred_score": 0.5559261315182927,
+          "n_slices": 244,
+          "n_train_subjects": 36,
+          "n_train_hc": 4023,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 17,
+          "test_subject": "KCL::ID16",
+          "true_label": 1,
+          "pred_score": 0.48987877927818235,
+          "n_slices": 181,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2855
+        },
+        {
+          "fold": 18,
+          "test_subject": "KCL::ID17",
+          "true_label": 1,
+          "pred_score": 0.4875229156748185,
+          "n_slices": 200,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2836
+        },
+        {
+          "fold": 19,
+          "test_subject": "KCL::ID18",
+          "true_label": 1,
+          "pred_score": 0.45818918284132254,
+          "n_slices": 77,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2959
+        },
+        {
+          "fold": 20,
+          "test_subject": "KCL::ID19",
+          "true_label": 0,
+          "pred_score": 0.5007922898194161,
+          "n_slices": 200,
+          "n_train_subjects": 36,
+          "n_train_hc": 4067,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 21,
+          "test_subject": "KCL::ID20",
+          "true_label": 1,
+          "pred_score": 0.5106984967610884,
+          "n_slices": 195,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2841
+        },
+        {
+          "fold": 22,
+          "test_subject": "KCL::ID21",
+          "true_label": 0,
+          "pred_score": 0.485263047702388,
+          "n_slices": 177,
+          "n_train_subjects": 36,
+          "n_train_hc": 4090,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 23,
+          "test_subject": "KCL::ID22",
+          "true_label": 0,
+          "pred_score": 0.4978421434381427,
+          "n_slices": 233,
+          "n_train_subjects": 36,
+          "n_train_hc": 4034,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 24,
+          "test_subject": "KCL::ID23",
+          "true_label": 0,
+          "pred_score": 0.5027136364081835,
+          "n_slices": 283,
+          "n_train_subjects": 36,
+          "n_train_hc": 3984,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 25,
+          "test_subject": "KCL::ID24",
+          "true_label": 1,
+          "pred_score": 0.4732401731543755,
+          "n_slices": 208,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2828
+        },
+        {
+          "fold": 26,
+          "test_subject": "KCL::ID25",
+          "true_label": 0,
+          "pred_score": 0.48439494622110846,
+          "n_slices": 170,
+          "n_train_subjects": 36,
+          "n_train_hc": 4097,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 27,
+          "test_subject": "KCL::ID26",
+          "true_label": 0,
+          "pred_score": 0.48575192875598894,
+          "n_slices": 212,
+          "n_train_subjects": 36,
+          "n_train_hc": 4055,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 28,
+          "test_subject": "KCL::ID27",
+          "true_label": 1,
+          "pred_score": 0.5169360053555246,
+          "n_slices": 166,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2870
+        },
+        {
+          "fold": 29,
+          "test_subject": "KCL::ID28",
+          "true_label": 0,
+          "pred_score": 0.485638647197077,
+          "n_slices": 208,
+          "n_train_subjects": 36,
+          "n_train_hc": 4059,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 30,
+          "test_subject": "KCL::ID29",
+          "true_label": 1,
+          "pred_score": 0.4867593349216813,
+          "n_slices": 299,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2737
+        },
+        {
+          "fold": 31,
+          "test_subject": "KCL::ID30",
+          "true_label": 1,
+          "pred_score": 0.5000010488931573,
+          "n_slices": 148,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2888
+        },
+        {
+          "fold": 32,
+          "test_subject": "KCL::ID31",
+          "true_label": 0,
+          "pred_score": 0.522233264223478,
+          "n_slices": 273,
+          "n_train_subjects": 36,
+          "n_train_hc": 3994,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 33,
+          "test_subject": "KCL::ID32",
+          "true_label": 1,
+          "pred_score": 0.5163445719939364,
+          "n_slices": 152,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2884
+        },
+        {
+          "fold": 34,
+          "test_subject": "KCL::ID33",
+          "true_label": 1,
+          "pred_score": 0.5009849263160276,
+          "n_slices": 235,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2801
+        },
+        {
+          "fold": 35,
+          "test_subject": "KCL::ID34",
+          "true_label": 1,
+          "pred_score": 0.4929966781947689,
+          "n_slices": 188,
+          "n_train_subjects": 36,
+          "n_train_hc": 4267,
+          "n_train_pd": 2848
+        },
+        {
+          "fold": 36,
+          "test_subject": "KCL::ID35",
+          "true_label": 0,
+          "pred_score": 0.509812912836897,
+          "n_slices": 180,
+          "n_train_subjects": 36,
+          "n_train_hc": 4087,
+          "n_train_pd": 3036
+        },
+        {
+          "fold": 37,
+          "test_subject": "KCL::ID36",
+          "true_label": 0,
+          "pred_score": 0.4960994044822308,
+          "n_slices": 229,
+          "n_train_subjects": 36,
+          "n_train_hc": 4038,
+          "n_train_pd": 3036
+        }
+      ]
+    },
+    {
+      "task": "pd_loso_subject_level",
+      "cohort": null,
+      "n_subjects_evaluated": 166,
+      "n_hc": 89,
+      "n_pd": 77,
+      "auroc": 0.6318400700423172,
+      "accuracy": 0.6506024096385542,
+      "balanced_accuracy": 0.6522690792353714,
+      "sensitivity": 0.6753246753246753,
+      "specificity": 0.6292134831460674,
+      "confusion_matrix": {
+        "tn": 56,
+        "fp": 33,
+        "fn": 25,
+        "tp": 52
+      },
+      "subject_results": [
+        {
+          "fold": 1,
+          "test_subject": "English::AH_064F",
+          "true_label": 0,
+          "pred_score": 0.6428372816703916,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 2,
+          "test_subject": "English::AH_114S",
+          "true_label": 0,
+          "pred_score": 0.825355226596532,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 3,
+          "test_subject": "English::AH_121A",
+          "true_label": 0,
+          "pred_score": 0.7013651709867801,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 4,
+          "test_subject": "English::AH_123G",
+          "true_label": 0,
+          "pred_score": 0.734626898722193,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 5,
+          "test_subject": "English::AH_195B",
+          "true_label": 0,
+          "pred_score": 0.6645800113332468,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12757,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 6,
+          "test_subject": "English::AH_197T",
+          "true_label": 0,
+          "pred_score": 0.8381814103433312,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 7,
+          "test_subject": "English::AH_264Z",
+          "true_label": 0,
+          "pred_score": 0.7140988761187955,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12757,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 8,
+          "test_subject": "English::AH_322A",
+          "true_label": 0,
+          "pred_score": 0.738072320042844,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12757,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 9,
+          "test_subject": "English::AH_325A",
+          "true_label": 0,
+          "pred_score": 0.7218356581433409,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 10,
+          "test_subject": "English::AH_333L",
+          "true_label": 0,
+          "pred_score": 0.6796075140696115,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12757,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 11,
+          "test_subject": "English::AH_378G",
+          "true_label": 0,
+          "pred_score": 0.6322013158710722,
+          "n_slices": 4,
+          "n_train_subjects": 165,
+          "n_train_hc": 12756,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 12,
+          "test_subject": "English::AH_444B",
+          "true_label": 0,
+          "pred_score": 0.68448194789627,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 13,
+          "test_subject": "English::AH_469Z",
+          "true_label": 0,
+          "pred_score": 0.7761341168989231,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 14,
+          "test_subject": "English::AH_473R",
+          "true_label": 0,
+          "pred_score": 0.7637094329185962,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 15,
+          "test_subject": "English::AH_501F",
+          "true_label": 0,
+          "pred_score": 0.5470692484281922,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 16,
+          "test_subject": "English::AH_523T",
+          "true_label": 0,
+          "pred_score": 0.7195125583448537,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 17,
+          "test_subject": "English::AH_528T",
+          "true_label": 0,
+          "pred_score": 0.5149525577283895,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 18,
+          "test_subject": "English::AH_538M",
+          "true_label": 0,
+          "pred_score": 0.6970775154191309,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 19,
+          "test_subject": "English::AH_545616858-3A749CBC-3FEB-4D35-820E-E45C3E5B9B6A",
+          "true_label": 1,
+          "pred_score": 0.7900962922048468,
+          "n_slices": 4,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14299
+        },
+        {
+          "fold": 20,
+          "test_subject": "English::AH_545622717-461DFFFE-54AF-42AF-BA78-528BD505D624",
+          "true_label": 1,
+          "pred_score": 0.681919566460844,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 21,
+          "test_subject": "English::AH_545622719-52C23861-6E0D-41E0-A3D8-9358C28C019B",
+          "true_label": 1,
+          "pred_score": 0.7877950298768017,
+          "n_slices": 4,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14299
+        },
+        {
+          "fold": 22,
+          "test_subject": "English::AH_545622720-E1486AF6-8C95-47EB-829B-4D62698C987A",
+          "true_label": 1,
+          "pred_score": 0.5538816627125782,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 23,
+          "test_subject": "English::AH_545622722-3C79DA68-36BB-43A2-B29C-61AEF480E07E",
+          "true_label": 1,
+          "pred_score": 0.8152809959345259,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14300
+        },
+        {
+          "fold": 24,
+          "test_subject": "English::AH_545629296-C2C009C6-8C17-42EA-B6BE-362942FC4692",
+          "true_label": 1,
+          "pred_score": 0.4417591210793231,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14300
+        },
+        {
+          "fold": 25,
+          "test_subject": "English::AH_545643618-82A143AC-B643-4273-A923-C42A83AEEC5F",
+          "true_label": 1,
+          "pred_score": 0.6461925270509413,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 26,
+          "test_subject": "English::AH_545648867-CB17D873-1CEA-492A-B5B0-93C7463F516C",
+          "true_label": 1,
+          "pred_score": 0.7072534073467012,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 27,
+          "test_subject": "English::AH_545692309-EA8C4DC0-9B2A-4CC7-A490-851A2129A733",
+          "true_label": 1,
+          "pred_score": 0.7375525563581552,
+          "n_slices": 5,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14298
+        },
+        {
+          "fold": 28,
+          "test_subject": "English::AH_545692315-C2972597-9AEC-4060-A186-F1F59340640C",
+          "true_label": 1,
+          "pred_score": 0.7714668784258617,
+          "n_slices": 4,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14299
+        },
+        {
+          "fold": 29,
+          "test_subject": "English::AH_545713221-1E77C030-4558-4A88-B1A2-6AB777ACAE61",
+          "true_label": 1,
+          "pred_score": 0.8512953385677917,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 30,
+          "test_subject": "English::AH_545713222-DA13DC3A-F24B-454E-984F-19DF19328D39",
+          "true_label": 1,
+          "pred_score": 0.7087298145106877,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 31,
+          "test_subject": "English::AH_545713223-E6D59EE5-4C3F-4B40-AE8F-0657EF94DB66",
+          "true_label": 1,
+          "pred_score": 0.6429138113123007,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 32,
+          "test_subject": "English::AH_545713224-1B3708B0-8792-4FEE-B03B-C7CB9CB03D58",
+          "true_label": 1,
+          "pred_score": 0.5872121681147455,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 33,
+          "test_subject": "English::AH_545743929-E2EAE1A3-7E46-4DCF-8DB7-37A5CA47DB9D",
+          "true_label": 1,
+          "pred_score": 0.7682995079105841,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 34,
+          "test_subject": "English::AH_545753013-FCFF8F46-08FF-4C87-B443-D2039E5DA945",
+          "true_label": 1,
+          "pred_score": 0.7137976473699753,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 35,
+          "test_subject": "English::AH_545753014-C68926CC-AB91-49AF-90A6-BB5C434283DB",
+          "true_label": 1,
+          "pred_score": 0.5524497715633403,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 36,
+          "test_subject": "English::AH_545753015-58CAA743-BA9A-47E0-B9EF-CC35E9EFB839",
+          "true_label": 1,
+          "pred_score": 0.6679604922913999,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 37,
+          "test_subject": "English::AH_545789668-A4F6069C-5E1A-49F5-9EDC-59C6EB833E42",
+          "true_label": 1,
+          "pred_score": 0.6688254627244713,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 38,
+          "test_subject": "English::AH_545789670-C297FD53-BF71-4183-86A0-58E5E1EB0DF8",
+          "true_label": 1,
+          "pred_score": 0.629024524226975,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 39,
+          "test_subject": "English::AH_545789671-794D2256-DDFF-4009-8BA8-8A306C8FA14F",
+          "true_label": 1,
+          "pred_score": 0.7053305345198595,
+          "n_slices": 5,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14298
+        },
+        {
+          "fold": 40,
+          "test_subject": "English::AH_545789674-53885025-35F1-48C1-9826-BAAEB8BEAF58",
+          "true_label": 1,
+          "pred_score": 0.6067959105531706,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 41,
+          "test_subject": "English::AH_545789675-243F18DB-4432-4C87-B12C-6EEC2D2D30D6",
+          "true_label": 1,
+          "pred_score": 0.7331157531376277,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 42,
+          "test_subject": "English::AH_545789680-7FF9D4F1-DDCC-4CB6-8668-76530D670FA5",
+          "true_label": 1,
+          "pred_score": 0.6873705736436765,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 43,
+          "test_subject": "English::AH_545789682-7554E0C7-4E25-49C3-9E6C-04D525455E28",
+          "true_label": 1,
+          "pred_score": 0.7052595015652221,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 44,
+          "test_subject": "English::AH_545789690-DA26461A-AF40-4A43-9662-3A93EE872359",
+          "true_label": 1,
+          "pred_score": 0.6515447838005828,
+          "n_slices": 5,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14298
+        },
+        {
+          "fold": 45,
+          "test_subject": "English::AH_545806325-8A17002B-CFD3-4DCF-8854-04F0F2BFF21B",
+          "true_label": 1,
+          "pred_score": 0.6475125818839065,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 46,
+          "test_subject": "English::AH_545806326-BD0FE665-1AD5-4F55-8342-0FAB8B15680B",
+          "true_label": 1,
+          "pred_score": 0.6382679148454472,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14300
+        },
+        {
+          "fold": 47,
+          "test_subject": "English::AH_545812844-DFBCDA22-CADB-444A-9623-16A39D45E9E7",
+          "true_label": 1,
+          "pred_score": 0.6086821034705202,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14300
+        },
+        {
+          "fold": 48,
+          "test_subject": "English::AH_545812846-0C14B32A-6C50-4B62-BC89-0A815C2DEEFA",
+          "true_label": 1,
+          "pred_score": 0.7645244885406659,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14301
+        },
+        {
+          "fold": 49,
+          "test_subject": "English::AH_545841221-6FC57E6E-65B6-4859-A15A-55856D7E75C0",
+          "true_label": 1,
+          "pred_score": 0.8084676490399714,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 50,
+          "test_subject": "English::AH_545841222-DE5AEF27-7F4E-45A4-BF7D-9E87E7A786AE",
+          "true_label": 1,
+          "pred_score": 0.6597757472093425,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 51,
+          "test_subject": "English::AH_545841223-24FB0419-5BAE-4F9C-8EBC-CD62DA6590D2",
+          "true_label": 1,
+          "pred_score": 0.5377473861211018,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14300
+        },
+        {
+          "fold": 52,
+          "test_subject": "English::AH_545841226-C699FC9E-1E0C-474D-A12A-936DD92B8980",
+          "true_label": 1,
+          "pred_score": 0.6553093394228685,
+          "n_slices": 6,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14297
+        },
+        {
+          "fold": 53,
+          "test_subject": "English::AH_545847410-D1BA3BB4-1F61-44CA-ACDE-455A8E97E04B",
+          "true_label": 1,
+          "pred_score": 0.6275722865039711,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14302
+        },
+        {
+          "fold": 54,
+          "test_subject": "English::AH_545880204-EE87D3E2-0D4C-4EAA-ACD7-C3F177AFF62F",
+          "true_label": 1,
+          "pred_score": 0.6941204586823441,
+          "n_slices": 4,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14299
+        },
+        {
+          "fold": 55,
+          "test_subject": "English::AH_562E",
+          "true_label": 0,
+          "pred_score": 0.4291023165298672,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 56,
+          "test_subject": "English::AH_569E",
+          "true_label": 0,
+          "pred_score": 0.7460702785626719,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 57,
+          "test_subject": "English::AH_596S",
+          "true_label": 0,
+          "pred_score": 0.5272569061225835,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 58,
+          "test_subject": "English::AH_619B",
+          "true_label": 0,
+          "pred_score": 0.6317189120595001,
+          "n_slices": 4,
+          "n_train_subjects": 165,
+          "n_train_hc": 12756,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 59,
+          "test_subject": "English::AH_621N",
+          "true_label": 0,
+          "pred_score": 0.7696132193342523,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 60,
+          "test_subject": "English::AH_667J",
+          "true_label": 0,
+          "pred_score": 0.6911727743300216,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 61,
+          "test_subject": "English::AH_678A",
+          "true_label": 0,
+          "pred_score": 0.6267345605230922,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12757,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 62,
+          "test_subject": "English::AH_777G",
+          "true_label": 0,
+          "pred_score": 0.7676439848286796,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 63,
+          "test_subject": "English::AH_777R",
+          "true_label": 0,
+          "pred_score": 0.7064669428101511,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 64,
+          "test_subject": "English::AH_803T",
+          "true_label": 0,
+          "pred_score": 0.7569260780836062,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 65,
+          "test_subject": "English::AH_821C",
+          "true_label": 0,
+          "pred_score": 0.6207789355320802,
+          "n_slices": 3,
+          "n_train_subjects": 165,
+          "n_train_hc": 12757,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 66,
+          "test_subject": "English::AH_888A",
+          "true_label": 0,
+          "pred_score": 0.7530388235656182,
+          "n_slices": 1,
+          "n_train_subjects": 165,
+          "n_train_hc": 12759,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 67,
+          "test_subject": "English::AH_904H",
+          "true_label": 0,
+          "pred_score": 0.7334434592250052,
+          "n_slices": 2,
+          "n_train_subjects": 165,
+          "n_train_hc": 12758,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 68,
+          "test_subject": "Italian_Elderly_HC::AGNESE P",
+          "true_label": 0,
+          "pred_score": 0.5027443178002449,
+          "n_slices": 366,
+          "n_train_subjects": 165,
+          "n_train_hc": 12394,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 69,
+          "test_subject": "Italian_Elderly_HC::ANGELA C",
+          "true_label": 0,
+          "pred_score": 0.47197337724164057,
+          "n_slices": 299,
+          "n_train_subjects": 165,
+          "n_train_hc": 12461,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 70,
+          "test_subject": "Italian_Elderly_HC::ANGELA G",
+          "true_label": 0,
+          "pred_score": 0.4786519026595145,
+          "n_slices": 301,
+          "n_train_subjects": 165,
+          "n_train_hc": 12459,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 71,
+          "test_subject": "Italian_Elderly_HC::ANTONIETTA P",
+          "true_label": 0,
+          "pred_score": 0.4789678378769172,
+          "n_slices": 265,
+          "n_train_subjects": 165,
+          "n_train_hc": 12495,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 72,
+          "test_subject": "Italian_Elderly_HC::ANTONIO C",
+          "true_label": 0,
+          "pred_score": 0.4899103473220797,
+          "n_slices": 285,
+          "n_train_subjects": 165,
+          "n_train_hc": 12475,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 73,
+          "test_subject": "Italian_Elderly_HC::BRIGIDA C",
+          "true_label": 0,
+          "pred_score": 0.49162391124591126,
+          "n_slices": 266,
+          "n_train_subjects": 165,
+          "n_train_hc": 12494,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 74,
+          "test_subject": "Italian_Elderly_HC::GILDA C",
+          "true_label": 0,
+          "pred_score": 0.5293644175686417,
+          "n_slices": 286,
+          "n_train_subjects": 165,
+          "n_train_hc": 12474,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 75,
+          "test_subject": "Italian_Elderly_HC::GIOVANNA G",
+          "true_label": 0,
+          "pred_score": 0.4950693914695792,
+          "n_slices": 431,
+          "n_train_subjects": 165,
+          "n_train_hc": 12329,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 76,
+          "test_subject": "Italian_Elderly_HC::GIOVANNI B",
+          "true_label": 0,
+          "pred_score": 0.4918932344957764,
+          "n_slices": 289,
+          "n_train_subjects": 165,
+          "n_train_hc": 12471,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 77,
+          "test_subject": "Italian_Elderly_HC::GRAZIA G",
+          "true_label": 0,
+          "pred_score": 0.4851086916440001,
+          "n_slices": 300,
+          "n_train_subjects": 165,
+          "n_train_hc": 12460,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 78,
+          "test_subject": "Italian_Elderly_HC::LEONARDA F",
+          "true_label": 0,
+          "pred_score": 0.4761179850388399,
+          "n_slices": 275,
+          "n_train_subjects": 165,
+          "n_train_hc": 12485,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 79,
+          "test_subject": "Italian_Elderly_HC::LISCO G",
+          "true_label": 0,
+          "pred_score": 0.46875129659157966,
+          "n_slices": 287,
+          "n_train_subjects": 165,
+          "n_train_hc": 12473,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 80,
+          "test_subject": "Italian_Elderly_HC::LUIGI P",
+          "true_label": 0,
+          "pred_score": 0.48878704403786916,
+          "n_slices": 271,
+          "n_train_subjects": 165,
+          "n_train_hc": 12489,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 81,
+          "test_subject": "Italian_Elderly_HC::MARIACRISTINA P",
+          "true_label": 0,
+          "pred_score": 0.49373125060827217,
+          "n_slices": 283,
+          "n_train_subjects": 165,
+          "n_train_hc": 12477,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 82,
+          "test_subject": "Italian_Elderly_HC::MICHELE G",
+          "true_label": 0,
+          "pred_score": 0.4981197906056533,
+          "n_slices": 299,
+          "n_train_subjects": 165,
+          "n_train_hc": 12461,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 83,
+          "test_subject": "Italian_Elderly_HC::NICOLA P",
+          "true_label": 0,
+          "pred_score": 0.47718838709251665,
+          "n_slices": 319,
+          "n_train_subjects": 165,
+          "n_train_hc": 12441,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 84,
+          "test_subject": "Italian_Elderly_HC::PORCELLI A",
+          "true_label": 0,
+          "pred_score": 0.48851255798788923,
+          "n_slices": 282,
+          "n_train_subjects": 165,
+          "n_train_hc": 12478,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 85,
+          "test_subject": "Italian_Elderly_HC::SUMMO L",
+          "true_label": 0,
+          "pred_score": 0.494178882022961,
+          "n_slices": 309,
+          "n_train_subjects": 165,
+          "n_train_hc": 12451,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 86,
+          "test_subject": "Italian_Elderly_HC::TERESA M",
+          "true_label": 0,
+          "pred_score": 0.49043308081139386,
+          "n_slices": 282,
+          "n_train_subjects": 165,
+          "n_train_hc": 12478,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 87,
+          "test_subject": "Italian_Elderly_HC::VITANTONIO D",
+          "true_label": 0,
+          "pred_score": 0.5133853698187381,
+          "n_slices": 150,
+          "n_train_subjects": 165,
+          "n_train_hc": 12610,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 88,
+          "test_subject": "Italian_Elderly_HC::VITO A",
+          "true_label": 0,
+          "pred_score": 0.48071504542318,
+          "n_slices": 251,
+          "n_train_subjects": 165,
+          "n_train_hc": 12509,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 89,
+          "test_subject": "Italian_Elderly_HC::VITO L",
+          "true_label": 0,
+          "pred_score": 0.47822250059896076,
+          "n_slices": 396,
+          "n_train_subjects": 165,
+          "n_train_hc": 12364,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 90,
+          "test_subject": "Italian_PD::Anna B",
+          "true_label": 1,
+          "pred_score": 0.48343363935767425,
+          "n_slices": 294,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14009
+        },
+        {
+          "fold": 91,
+          "test_subject": "Italian_PD::Antonia G",
+          "true_label": 1,
+          "pred_score": 0.5312401687613634,
+          "n_slices": 688,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13615
+        },
+        {
+          "fold": 92,
+          "test_subject": "Italian_PD::Daria L",
+          "true_label": 1,
+          "pred_score": 0.5074624069750809,
+          "n_slices": 410,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13893
+        },
+        {
+          "fold": 93,
+          "test_subject": "Italian_PD::Domenico C",
+          "true_label": 1,
+          "pred_score": 0.5236349448224726,
+          "n_slices": 359,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13944
+        },
+        {
+          "fold": 94,
+          "test_subject": "Italian_PD::Felicetta C",
+          "true_label": 1,
+          "pred_score": 0.5252059689119534,
+          "n_slices": 340,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13963
+        },
+        {
+          "fold": 95,
+          "test_subject": "Italian_PD::Giovanni M",
+          "true_label": 1,
+          "pred_score": 0.5016353683706103,
+          "n_slices": 288,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14015
+        },
+        {
+          "fold": 96,
+          "test_subject": "Italian_PD::Giovanni N",
+          "true_label": 1,
+          "pred_score": 0.5241997727253634,
+          "n_slices": 305,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13998
+        },
+        {
+          "fold": 97,
+          "test_subject": "Italian_PD::Giulia L",
+          "true_label": 1,
+          "pred_score": 0.5127762905303741,
+          "n_slices": 392,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13911
+        },
+        {
+          "fold": 98,
+          "test_subject": "Italian_PD::Giulia P",
+          "true_label": 1,
+          "pred_score": 0.4808023137553416,
+          "n_slices": 311,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13992
+        },
+        {
+          "fold": 99,
+          "test_subject": "Italian_PD::Giustina M",
+          "true_label": 1,
+          "pred_score": 0.5124117704999409,
+          "n_slices": 370,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13933
+        },
+        {
+          "fold": 100,
+          "test_subject": "Italian_PD::Leonarda L",
+          "true_label": 1,
+          "pred_score": 0.49060246757724135,
+          "n_slices": 415,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13888
+        },
+        {
+          "fold": 101,
+          "test_subject": "Italian_PD::Lucia R",
+          "true_label": 1,
+          "pred_score": 0.5101973788396048,
+          "n_slices": 325,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13978
+        },
+        {
+          "fold": 102,
+          "test_subject": "Italian_PD::Luigi B",
+          "true_label": 1,
+          "pred_score": 0.5072892234520366,
+          "n_slices": 362,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13941
+        },
+        {
+          "fold": 103,
+          "test_subject": "Italian_PD::Mario B",
+          "true_label": 1,
+          "pred_score": 0.506751249206242,
+          "n_slices": 430,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13873
+        },
+        {
+          "fold": 104,
+          "test_subject": "Italian_PD::Michele C",
+          "true_label": 1,
+          "pred_score": 0.494580871155661,
+          "n_slices": 288,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14015
+        },
+        {
+          "fold": 105,
+          "test_subject": "Italian_PD::Nicola M",
+          "true_label": 1,
+          "pred_score": 0.48149205098160813,
+          "n_slices": 349,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13954
+        },
+        {
+          "fold": 106,
+          "test_subject": "Italian_PD::Nicola S",
+          "true_label": 1,
+          "pred_score": 0.5050787823553216,
+          "n_slices": 653,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13650
+        },
+        {
+          "fold": 107,
+          "test_subject": "Italian_PD::Nicol\u00f2 C",
+          "true_label": 1,
+          "pred_score": 0.49994522860094026,
+          "n_slices": 427,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13876
+        },
+        {
+          "fold": 108,
+          "test_subject": "Italian_PD::Parkinsons",
+          "true_label": 1,
+          "pred_score": 0.6001521794894277,
+          "n_slices": 1176,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13127
+        },
+        {
+          "fold": 109,
+          "test_subject": "Italian_PD::Roberto L",
+          "true_label": 1,
+          "pred_score": 0.504507407283218,
+          "n_slices": 298,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14005
+        },
+        {
+          "fold": 110,
+          "test_subject": "Italian_PD::Roberto R",
+          "true_label": 1,
+          "pred_score": 0.48787008564473355,
+          "n_slices": 703,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13600
+        },
+        {
+          "fold": 111,
+          "test_subject": "Italian_PD::Saverio S",
+          "true_label": 1,
+          "pred_score": 0.5033344812999918,
+          "n_slices": 362,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13941
+        },
+        {
+          "fold": 112,
+          "test_subject": "Italian_PD::Ugo B",
+          "true_label": 1,
+          "pred_score": 0.48166674945654725,
+          "n_slices": 292,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14011
+        },
+        {
+          "fold": 113,
+          "test_subject": "Italian_PD::Vito L",
+          "true_label": 1,
+          "pred_score": 0.4927967712888043,
+          "n_slices": 403,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13900
+        },
+        {
+          "fold": 114,
+          "test_subject": "Italian_PD::Vito S",
+          "true_label": 1,
+          "pred_score": 0.49583975823501897,
+          "n_slices": 941,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 13362
+        },
+        {
+          "fold": 115,
+          "test_subject": "Italian_Young_HC::Alberto R",
+          "true_label": 0,
+          "pred_score": 0.43892834825842775,
+          "n_slices": 119,
+          "n_train_subjects": 165,
+          "n_train_hc": 12641,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 116,
+          "test_subject": "Italian_Young_HC::Alessandro M",
+          "true_label": 0,
+          "pred_score": 0.4740220197948583,
+          "n_slices": 122,
+          "n_train_subjects": 165,
+          "n_train_hc": 12638,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 117,
+          "test_subject": "Italian_Young_HC::Alessandro P",
+          "true_label": 0,
+          "pred_score": 0.44503855606533144,
+          "n_slices": 133,
+          "n_train_subjects": 165,
+          "n_train_hc": 12627,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 118,
+          "test_subject": "Italian_Young_HC::Arianna P",
+          "true_label": 0,
+          "pred_score": 0.47483505777897,
+          "n_slices": 115,
+          "n_train_subjects": 165,
+          "n_train_hc": 12645,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 119,
+          "test_subject": "Italian_Young_HC::Biagio P",
+          "true_label": 0,
+          "pred_score": 0.46561725889940425,
+          "n_slices": 117,
+          "n_train_subjects": 165,
+          "n_train_hc": 12643,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 120,
+          "test_subject": "Italian_Young_HC::Daniele R",
+          "true_label": 0,
+          "pred_score": 0.4824948185192809,
+          "n_slices": 132,
+          "n_train_subjects": 165,
+          "n_train_hc": 12628,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 121,
+          "test_subject": "Italian_Young_HC::Davide M",
+          "true_label": 0,
+          "pred_score": 0.4455233068735145,
+          "n_slices": 149,
+          "n_train_subjects": 165,
+          "n_train_hc": 12611,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 122,
+          "test_subject": "Italian_Young_HC::Davide S",
+          "true_label": 0,
+          "pred_score": 0.46289017475280325,
+          "n_slices": 122,
+          "n_train_subjects": 165,
+          "n_train_hc": 12638,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 123,
+          "test_subject": "Italian_Young_HC::Domenico T",
+          "true_label": 0,
+          "pred_score": 0.4770301409182428,
+          "n_slices": 117,
+          "n_train_subjects": 165,
+          "n_train_hc": 12643,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 124,
+          "test_subject": "Italian_Young_HC::Gennaro T",
+          "true_label": 0,
+          "pred_score": 0.48915687901543986,
+          "n_slices": 142,
+          "n_train_subjects": 165,
+          "n_train_hc": 12618,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 125,
+          "test_subject": "Italian_Young_HC::Giuseppe Andrea M",
+          "true_label": 0,
+          "pred_score": 0.4376313117527754,
+          "n_slices": 153,
+          "n_train_subjects": 165,
+          "n_train_hc": 12607,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 126,
+          "test_subject": "Italian_Young_HC::Giuseppe M",
+          "true_label": 0,
+          "pred_score": 0.48817771764030193,
+          "n_slices": 118,
+          "n_train_subjects": 165,
+          "n_train_hc": 12642,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 127,
+          "test_subject": "Italian_Young_HC::Luca S",
+          "true_label": 0,
+          "pred_score": 0.4733570821567047,
+          "n_slices": 123,
+          "n_train_subjects": 165,
+          "n_train_hc": 12637,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 128,
+          "test_subject": "Italian_Young_HC::Nicolas M",
+          "true_label": 0,
+          "pred_score": 0.4661612916616743,
+          "n_slices": 141,
+          "n_train_subjects": 165,
+          "n_train_hc": 12619,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 129,
+          "test_subject": "Italian_Young_HC::Sara T",
+          "true_label": 0,
+          "pred_score": 0.47036432027517927,
+          "n_slices": 137,
+          "n_train_subjects": 165,
+          "n_train_hc": 12623,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 130,
+          "test_subject": "KCL::ID00",
+          "true_label": 0,
+          "pred_score": 0.4949332358598855,
+          "n_slices": 212,
+          "n_train_subjects": 165,
+          "n_train_hc": 12548,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 131,
+          "test_subject": "KCL::ID01",
+          "true_label": 0,
+          "pred_score": 0.4829392257731025,
+          "n_slices": 166,
+          "n_train_subjects": 165,
+          "n_train_hc": 12594,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 132,
+          "test_subject": "KCL::ID02",
+          "true_label": 1,
+          "pred_score": 0.4671865681681192,
+          "n_slices": 219,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14084
+        },
+        {
+          "fold": 133,
+          "test_subject": "KCL::ID03",
+          "true_label": 0,
+          "pred_score": 0.4812345468943697,
+          "n_slices": 209,
+          "n_train_subjects": 165,
+          "n_train_hc": 12551,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 134,
+          "test_subject": "KCL::ID04",
+          "true_label": 1,
+          "pred_score": 0.5023458120960447,
+          "n_slices": 142,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14161
+        },
+        {
+          "fold": 135,
+          "test_subject": "KCL::ID05",
+          "true_label": 0,
+          "pred_score": 0.49315734362221925,
+          "n_slices": 126,
+          "n_train_subjects": 165,
+          "n_train_hc": 12634,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 136,
+          "test_subject": "KCL::ID06",
+          "true_label": 1,
+          "pred_score": 0.47503543656056096,
+          "n_slices": 232,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14071
+        },
+        {
+          "fold": 137,
+          "test_subject": "KCL::ID07",
+          "true_label": 1,
+          "pred_score": 0.49121963298638266,
+          "n_slices": 224,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14079
+        },
+        {
+          "fold": 138,
+          "test_subject": "KCL::ID08",
+          "true_label": 0,
+          "pred_score": 0.4817072674853118,
+          "n_slices": 207,
+          "n_train_subjects": 165,
+          "n_train_hc": 12553,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 139,
+          "test_subject": "KCL::ID09",
+          "true_label": 0,
+          "pred_score": 0.4866101373975291,
+          "n_slices": 180,
+          "n_train_subjects": 165,
+          "n_train_hc": 12580,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 140,
+          "test_subject": "KCL::ID10",
+          "true_label": 0,
+          "pred_score": 0.48967236266903835,
+          "n_slices": 193,
+          "n_train_subjects": 165,
+          "n_train_hc": 12567,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 141,
+          "test_subject": "KCL::ID11",
+          "true_label": 0,
+          "pred_score": 0.4899008987713843,
+          "n_slices": 156,
+          "n_train_subjects": 165,
+          "n_train_hc": 12604,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 142,
+          "test_subject": "KCL::ID12",
+          "true_label": 0,
+          "pred_score": 0.4876948382992276,
+          "n_slices": 191,
+          "n_train_subjects": 165,
+          "n_train_hc": 12569,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 143,
+          "test_subject": "KCL::ID13",
+          "true_label": 1,
+          "pred_score": 0.48560381818589676,
+          "n_slices": 170,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14133
+        },
+        {
+          "fold": 144,
+          "test_subject": "KCL::ID14",
+          "true_label": 0,
+          "pred_score": 0.4847439659050685,
+          "n_slices": 218,
+          "n_train_subjects": 165,
+          "n_train_hc": 12542,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 145,
+          "test_subject": "KCL::ID15",
+          "true_label": 0,
+          "pred_score": 0.4928437087806169,
+          "n_slices": 244,
+          "n_train_subjects": 165,
+          "n_train_hc": 12516,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 146,
+          "test_subject": "KCL::ID16",
+          "true_label": 1,
+          "pred_score": 0.49514574072537487,
+          "n_slices": 181,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14122
+        },
+        {
+          "fold": 147,
+          "test_subject": "KCL::ID17",
+          "true_label": 1,
+          "pred_score": 0.47539903159460506,
+          "n_slices": 200,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14103
+        },
+        {
+          "fold": 148,
+          "test_subject": "KCL::ID18",
+          "true_label": 1,
+          "pred_score": 0.5114329009469218,
+          "n_slices": 77,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14226
+        },
+        {
+          "fold": 149,
+          "test_subject": "KCL::ID19",
+          "true_label": 0,
+          "pred_score": 0.48691924687654436,
+          "n_slices": 200,
+          "n_train_subjects": 165,
+          "n_train_hc": 12560,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 150,
+          "test_subject": "KCL::ID20",
+          "true_label": 1,
+          "pred_score": 0.49177024149781234,
+          "n_slices": 195,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14108
+        },
+        {
+          "fold": 151,
+          "test_subject": "KCL::ID21",
+          "true_label": 0,
+          "pred_score": 0.4907206973744913,
+          "n_slices": 177,
+          "n_train_subjects": 165,
+          "n_train_hc": 12583,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 152,
+          "test_subject": "KCL::ID22",
+          "true_label": 0,
+          "pred_score": 0.4893933947097925,
+          "n_slices": 233,
+          "n_train_subjects": 165,
+          "n_train_hc": 12527,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 153,
+          "test_subject": "KCL::ID23",
+          "true_label": 0,
+          "pred_score": 0.4938961925579169,
+          "n_slices": 283,
+          "n_train_subjects": 165,
+          "n_train_hc": 12477,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 154,
+          "test_subject": "KCL::ID24",
+          "true_label": 1,
+          "pred_score": 0.456378356747622,
+          "n_slices": 208,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14095
+        },
+        {
+          "fold": 155,
+          "test_subject": "KCL::ID25",
+          "true_label": 0,
+          "pred_score": 0.499740162366236,
+          "n_slices": 170,
+          "n_train_subjects": 165,
+          "n_train_hc": 12590,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 156,
+          "test_subject": "KCL::ID26",
+          "true_label": 0,
+          "pred_score": 0.4891059809907058,
+          "n_slices": 212,
+          "n_train_subjects": 165,
+          "n_train_hc": 12548,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 157,
+          "test_subject": "KCL::ID27",
+          "true_label": 1,
+          "pred_score": 0.48595619591923667,
+          "n_slices": 166,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14137
+        },
+        {
+          "fold": 158,
+          "test_subject": "KCL::ID28",
+          "true_label": 0,
+          "pred_score": 0.4808003334856216,
+          "n_slices": 208,
+          "n_train_subjects": 165,
+          "n_train_hc": 12552,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 159,
+          "test_subject": "KCL::ID29",
+          "true_label": 1,
+          "pred_score": 0.48218844344672945,
+          "n_slices": 299,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14004
+        },
+        {
+          "fold": 160,
+          "test_subject": "KCL::ID30",
+          "true_label": 1,
+          "pred_score": 0.4969301760051616,
+          "n_slices": 148,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14155
+        },
+        {
+          "fold": 161,
+          "test_subject": "KCL::ID31",
+          "true_label": 0,
+          "pred_score": 0.49781422573900125,
+          "n_slices": 273,
+          "n_train_subjects": 165,
+          "n_train_hc": 12487,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 162,
+          "test_subject": "KCL::ID32",
+          "true_label": 1,
+          "pred_score": 0.4953990398904454,
+          "n_slices": 152,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14151
+        },
+        {
+          "fold": 163,
+          "test_subject": "KCL::ID33",
+          "true_label": 1,
+          "pred_score": 0.49130722776868185,
+          "n_slices": 235,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14068
+        },
+        {
+          "fold": 164,
+          "test_subject": "KCL::ID34",
+          "true_label": 1,
+          "pred_score": 0.4802721545643462,
+          "n_slices": 188,
+          "n_train_subjects": 165,
+          "n_train_hc": 12760,
+          "n_train_pd": 14115
+        },
+        {
+          "fold": 165,
+          "test_subject": "KCL::ID35",
+          "true_label": 0,
+          "pred_score": 0.4879188157104358,
+          "n_slices": 180,
+          "n_train_subjects": 165,
+          "n_train_hc": 12580,
+          "n_train_pd": 14303
+        },
+        {
+          "fold": 166,
+          "test_subject": "KCL::ID36",
+          "true_label": 0,
+          "pred_score": 0.4781008001609388,
+          "n_slices": 229,
+          "n_train_subjects": 165,
+          "n_train_hc": 12531,
+          "n_train_pd": 14303
+        }
+      ],
+      "warning": "Combined cohorts may learn language, not disease"
+    }
+  ],
+  "speaker_id_results": [
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "Italian_Young_HC",
+      "embedding_type": "512_raw",
+      "embedding_name": "512D Raw",
+      "n_train_subjects": 15,
+      "n_test_subjects": 15,
+      "n_train_slices": 1301,
+      "n_test_slices": 639,
+      "accuracy": 0.38184663536776214,
+      "balanced_accuracy": 0.38206401594698464,
+      "macro_accuracy": 0.38206401594698475,
+      "micro_accuracy": 0.38184663536776214,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "Italian_Young_HC",
+      "embedding_type": "7d_scaled",
+      "embedding_name": "7D Scaled",
+      "n_train_subjects": 15,
+      "n_test_subjects": 15,
+      "n_train_slices": 1301,
+      "n_test_slices": 639,
+      "accuracy": 0.16588419405320814,
+      "balanced_accuracy": 0.15693086407654197,
+      "macro_accuracy": 0.15693086407654197,
+      "micro_accuracy": 0.16588419405320814,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "Italian_Elderly_HC",
+      "embedding_type": "512_raw",
+      "embedding_name": "512D Raw",
+      "n_train_subjects": 22,
+      "n_test_subjects": 22,
+      "n_train_slices": 4257,
+      "n_test_slices": 2235,
+      "accuracy": 0.25906040268456376,
+      "balanced_accuracy": 0.2707973430449495,
+      "macro_accuracy": 0.2707973430449495,
+      "micro_accuracy": 0.25906040268456376,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "Italian_Elderly_HC",
+      "embedding_type": "7d_scaled",
+      "embedding_name": "7D Scaled",
+      "n_train_subjects": 22,
+      "n_test_subjects": 22,
+      "n_train_slices": 4257,
+      "n_test_slices": 2235,
+      "accuracy": 0.06174496644295302,
+      "balanced_accuracy": 0.07706080751347168,
+      "macro_accuracy": 0.07706080751347168,
+      "micro_accuracy": 0.06174496644295302,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "Italian_PD",
+      "embedding_type": "512_raw",
+      "embedding_name": "512D Raw",
+      "n_train_subjects": 25,
+      "n_test_subjects": 25,
+      "n_train_slices": 8043,
+      "n_test_slices": 3138,
+      "accuracy": 0.39579349904397704,
+      "balanced_accuracy": 0.36875793348850583,
+      "macro_accuracy": 0.36875793348850594,
+      "micro_accuracy": 0.39579349904397704,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "Italian_PD",
+      "embedding_type": "7d_scaled",
+      "embedding_name": "7D Scaled",
+      "n_train_subjects": 25,
+      "n_test_subjects": 25,
+      "n_train_slices": 8043,
+      "n_test_slices": 3138,
+      "accuracy": 0.162842574888464,
+      "balanced_accuracy": 0.0855092305387883,
+      "macro_accuracy": 0.0855092305387883,
+      "micro_accuracy": 0.162842574888464,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "KCL",
+      "embedding_type": "512_raw",
+      "embedding_name": "512D Raw",
+      "n_train_subjects": 35,
+      "n_test_subjects": 35,
+      "n_train_slices": 4502,
+      "n_test_slices": 2554,
+      "accuracy": 0.24980422866092403,
+      "balanced_accuracy": 0.3027183117077173,
+      "macro_accuracy": 0.30271831170771724,
+      "micro_accuracy": 0.24980422866092403,
+      "closed_set_verified": true
+    },
+    {
+      "task": "speaker_id_closed_set",
+      "cohort": "KCL",
+      "embedding_type": "7d_scaled",
+      "embedding_name": "7D Scaled",
+      "n_train_subjects": 35,
+      "n_test_subjects": 35,
+      "n_train_slices": 4502,
+      "n_test_slices": 2554,
+      "accuracy": 0.04737666405638215,
+      "balanced_accuracy": 0.07579473366736184,
+      "macro_accuracy": 0.07579473366736182,
+      "micro_accuracy": 0.04737666405638215,
+      "closed_set_verified": true
+    }
+  ]
+}

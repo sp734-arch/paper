@@ -1,0 +1,56 @@
+# ============================================
+# HEAR Italian - Paper Reproduction Environment
+# ============================================
+# Minimal requirements to reproduce:
+# "Stability-first auditing of foundation audio representations"
+# 
+# Generated from import analysis of 149 Python files
+# Core dependencies only - 23 essential packages
+
+# ========= CORE DATA SCIENCE =========
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.8.0
+scipy==1.17.0
+joblib==1.5.3
+
+# ========= DEEP LEARNING & AUDIO =========
+# TensorFlow (for HeAR model loading)
+tensorflow==2.20.0
+# PyTorch (for safetensors support)
+torch==2.8.0
+safetensors==0.7.0                # Secure model format
+transformers==4.57.3              # HuggingFace models (for comparison)
+librosa==0.11.0                   # Audio feature extraction
+soundfile==0.13.1                 # Audio file I/O
+
+# ========= VISUALIZATION =========
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.5.2
+
+# ========= UTILITIES =========
+tqdm==4.67.1                      # Progress bars
+huggingface-hub==0.35.1           # Model downloading
+gradio==6.2.0                     # Demo interfaces
+
+# ========= SPECIALIZED (for specific scripts) =========
+parselmouth==0.4.7                # Praat phonetic analysis
+faster-whisper==0.9.0             # Speech recognition (Demo required)
+
+# ========= OPTIONAL GPU SUPPORT =========
+# Uncomment the appropriate section based on your hardware
+
+# For CUDA 12.1 (NVIDIA GPU):
+# torch==2.8.0+cu121
+# tensorflow[and-cuda]==2.20.0      # TensorFlow with CUDA support
+# cupy-cuda12x==12.5.0              # CuPy for CUDA 12.x
+# cuml-cu12==23.12.0                # cuML for GPU acceleration
+
+# For CPU-only (no GPU):
+# No additional packages needed - use the CPU versions above
+
+# ========= DEVELOPMENT (optional) =========
+# pytest==8.3.4                     # Testing framework
+# jupyter==1.0.0                    # Interactive notebooks
+# ipython==9.8.0                    # Enhanced REPL

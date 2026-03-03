@@ -1,0 +1,318 @@
+{
+  "timestamp": "2026-02-24T16:25:49.572943",
+  "prefix": "cross_lingual_real",
+  "kcl_30s_mode": true,
+  "pd_results": [
+    {
+      "task": "pd_loso_subject_level",
+      "cohort": "KCL",
+      "n_subjects_evaluated": 29,
+      "n_hc": 17,
+      "n_pd": 12,
+      "auroc": 0.7058823529411765,
+      "accuracy": 0.6896551724137931,
+      "balanced_accuracy": 0.6862745098039216,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.7058823529411765,
+      "confusion_matrix": {
+        "tn": 12,
+        "fp": 5,
+        "fn": 4,
+        "tp": 8
+      },
+      "subject_results": [
+        {
+          "fold": 1,
+          "test_subject": "KCL::ID00",
+          "true_label": 0,
+          "pred_score": 0.4332863670735637,
+          "n_slices": 21,
+          "n_train_subjects": 28,
+          "n_train_hc": 430,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 2,
+          "test_subject": "KCL::ID02",
+          "true_label": 1,
+          "pred_score": 0.458536406705262,
+          "n_slices": 25,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 281
+        },
+        {
+          "fold": 3,
+          "test_subject": "KCL::ID03",
+          "true_label": 0,
+          "pred_score": 0.5261318551796595,
+          "n_slices": 28,
+          "n_train_subjects": 28,
+          "n_train_hc": 423,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 4,
+          "test_subject": "KCL::ID06",
+          "true_label": 1,
+          "pred_score": 0.5454128140439013,
+          "n_slices": 28,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 278
+        },
+        {
+          "fold": 5,
+          "test_subject": "KCL::ID07",
+          "true_label": 1,
+          "pred_score": 0.5130820420118049,
+          "n_slices": 23,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 283
+        },
+        {
+          "fold": 6,
+          "test_subject": "KCL::ID08",
+          "true_label": 0,
+          "pred_score": 0.4895287169098815,
+          "n_slices": 28,
+          "n_train_subjects": 28,
+          "n_train_hc": 423,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 7,
+          "test_subject": "KCL::ID09",
+          "true_label": 0,
+          "pred_score": 0.5047737247988193,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 8,
+          "test_subject": "KCL::ID10",
+          "true_label": 0,
+          "pred_score": 0.4740793763850388,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 9,
+          "test_subject": "KCL::ID12",
+          "true_label": 0,
+          "pred_score": 0.487721442037693,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 10,
+          "test_subject": "KCL::ID13",
+          "true_label": 1,
+          "pred_score": 0.5011439952142788,
+          "n_slices": 18,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 288
+        },
+        {
+          "fold": 11,
+          "test_subject": "KCL::ID14",
+          "true_label": 0,
+          "pred_score": 0.3283065041343865,
+          "n_slices": 2,
+          "n_train_subjects": 28,
+          "n_train_hc": 449,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 12,
+          "test_subject": "KCL::ID15",
+          "true_label": 0,
+          "pred_score": 0.6032203769433858,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 13,
+          "test_subject": "KCL::ID17",
+          "true_label": 1,
+          "pred_score": 0.4815301204530075,
+          "n_slices": 26,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 280
+        },
+        {
+          "fold": 14,
+          "test_subject": "KCL::ID19",
+          "true_label": 0,
+          "pred_score": 0.4978618910319414,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 15,
+          "test_subject": "KCL::ID20",
+          "true_label": 1,
+          "pred_score": 0.5221241899602589,
+          "n_slices": 28,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 278
+        },
+        {
+          "fold": 16,
+          "test_subject": "KCL::ID21",
+          "true_label": 0,
+          "pred_score": 0.4597309144195604,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 17,
+          "test_subject": "KCL::ID22",
+          "true_label": 0,
+          "pred_score": 0.47342800355454756,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 18,
+          "test_subject": "KCL::ID23",
+          "true_label": 0,
+          "pred_score": 0.5115914686934594,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 19,
+          "test_subject": "KCL::ID24",
+          "true_label": 1,
+          "pred_score": 0.43758204399374556,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 277
+        },
+        {
+          "fold": 20,
+          "test_subject": "KCL::ID26",
+          "true_label": 0,
+          "pred_score": 0.43102404404073874,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 21,
+          "test_subject": "KCL::ID27",
+          "true_label": 1,
+          "pred_score": 0.5543976309155932,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 277
+        },
+        {
+          "fold": 22,
+          "test_subject": "KCL::ID28",
+          "true_label": 0,
+          "pred_score": 0.45266651132916025,
+          "n_slices": 27,
+          "n_train_subjects": 28,
+          "n_train_hc": 424,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 23,
+          "test_subject": "KCL::ID29",
+          "true_label": 1,
+          "pred_score": 0.5325563345665753,
+          "n_slices": 17,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 289
+        },
+        {
+          "fold": 24,
+          "test_subject": "KCL::ID31",
+          "true_label": 0,
+          "pred_score": 0.5265712493116596,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 25,
+          "test_subject": "KCL::ID32",
+          "true_label": 1,
+          "pred_score": 0.5409032673004412,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 277
+        },
+        {
+          "fold": 26,
+          "test_subject": "KCL::ID33",
+          "true_label": 1,
+          "pred_score": 0.5052363750281159,
+          "n_slices": 25,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 281
+        },
+        {
+          "fold": 27,
+          "test_subject": "KCL::ID34",
+          "true_label": 1,
+          "pred_score": 0.4998525895231863,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 451,
+          "n_train_pd": 277
+        },
+        {
+          "fold": 28,
+          "test_subject": "KCL::ID35",
+          "true_label": 0,
+          "pred_score": 0.49902947240257683,
+          "n_slices": 26,
+          "n_train_subjects": 28,
+          "n_train_hc": 425,
+          "n_train_pd": 306
+        },
+        {
+          "fold": 29,
+          "test_subject": "KCL::ID36",
+          "true_label": 0,
+          "pred_score": 0.45916544031229617,
+          "n_slices": 29,
+          "n_train_subjects": 28,
+          "n_train_hc": 422,
+          "n_train_pd": 306
+        }
+      ]
+    }
+  ],
+  "speaker_id_results": []
+}

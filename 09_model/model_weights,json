@@ -1,0 +1,53 @@
+{
+  "paper_reference": "Section 7.2.4 - Purified V2 Model",
+  "model_file": "pdhear_PURIFIED_V2_HASHED.pkl",
+  "inspection_script": "pkl_looker_3.py",
+  "dimensions": [
+    267,
+    346,
+    43,
+    146,
+    204,
+    38,
+    419
+  ],
+  "weights": [
+    -0.2603487555459291,
+    -0.13916214705774757,
+    0.05647140976947331,
+    -0.24785253123475284,
+    -0.2798109313790942,
+    0.8020486625820017,
+    0.3564494623352536
+  ],
+  "intercept": 0.03696489638873914,
+  "scaler_mean": [
+    -5.0096914895196125,
+    -6.109644744698589,
+    -1.8476441352459874,
+    0.4904769030199361,
+    2.3081947279899753,
+    -3.290362099352765,
+    2.9539740247166972
+  ],
+  "scaler_scale": [
+    1.3495240379875468,
+    1.4432658693755316,
+    1.784676809144212,
+    1.8837031253796184,
+    1.2808012864865115,
+    1.7910862700821795,
+    1.642630770840401
+  ],
+  "hash": "156fa538b8b373b6a3d66da52b2474e34b1bf7e208632dabf9970414eccdabfc",
+  "hash_algorithm": "SHA-256",
+  "export_date": "2026-02-06T13:08:29.108872",
+  "classes": {
+    "0": "healthy",
+    "1": "parkinsons"
+  },
+  "interpretation": {
+    "positive_weights": "Indicate Parkinson's disease",
+    "negative_weights": "Indicate healthy state"
+  }
+}
