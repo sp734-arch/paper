@@ -10,15 +10,15 @@
 
 | File | Purpose | Paper Connection |
 |:-----|:--------|:-----------------|
-| **`model_build.py`** | Creates the final Purified V2 model bundle | Implements Section 7.2.4 model creation |
-| **`looker.py`** | Inspects model weights, generates paper tables | Generates data for Table X and Figure 3 |
+| **`model_build.py`** | Creates the final Purified V2 model bundle | model creation |
+| **`looker.py`** | Inspects model weights, generates paper tables |  |
 | **`model_weights.json`** | Human-readable weight representation | Safe format for paper review/supplement |
-| **`pdhear_PURIFIED_V2_HASHED.safetensors`** | Primary model file (secure format) | Production model referenced in Section 7.2.4 |
+| **`pdhear_PURIFIED_V2_HASHED.safetensors`** | Primary model file (secure format) | Production model  |
 | **`safetensor_converter.py`** | Converts `.pkl` → `.safetensors` | Security protocol for model sharing |
-| **`safetensor_hash_validator.py`** | Validates model integrity via hash | Ensures reproducibility (Section 5) |
-| **`safetensor_loader.py`** | Simple loader + prediction function | Deployment utility for Section 8 applications |
+| **`safetensor_hash_validator.py`** | Validates model integrity via hash | Ensures reproducibility |
+| **`safetensor_loader.py`** | Simple loader + prediction function | Deployment utility |
 | **`loader_function_example.py`** | Example integration code | Reference implementation for other studies |
-| **`model_readme.png`** | Visual overview of model architecture | Supplementary material for Figure 3 |
+| **`model_readme.png`** | Visual overview of model architecture | Supplementary material  |
 | **`readme.md`** | This documentation file | Ties all components to paper narrative |
 
 ## 🔄 Workflow: From Audit to Deployment
