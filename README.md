@@ -281,7 +281,7 @@ See paper Discussion section for details.
 
 **Questions? Open an issue or contact the author**
 
-**Paper:** [arXiv link after submission]
+**Paper:** [link forthcoming]
 
 **Last updated:** February 2026
 
