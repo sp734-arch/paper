@@ -204,7 +204,14 @@ If you use this methodology, please cite:
 
 ```bibtex
 @article{mccormack2026robustness,
-  title={Stability-First Auditing for Foundation Audio Models in Speech-Based Health Screening},
+  title={@article{mccormack2026robustness,
+  title={Calibration Before Inference: A Stability-First Auditing Framework for Foundation Embeddings},
+  author={McCormack, Jim},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2026},
+  note={Purified V2 Model Hash: a50d941b6209f186...}
+}
+},
   author={McCormack, Jim},
   journal={arXiv preprint arXiv:XXXX.XXXXX},
   year={2026},
