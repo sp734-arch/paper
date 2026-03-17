@@ -1,8 +1,8 @@
-# 🎯 Stability-First Auditing for Safe Speech-Based Health Screening
+# 🎯 Calibration Before Inference: A Stability-First Auditing Framework for Foundation Embeddings
 ## Measurement Before Prediction
 
 ### Official code repository for the paper:  
-*"Stability-First Auditing for Safe Speech-Based Health Screening"*
+*"Calibration Before Inference: A Stability-First Auditing Framework for Foundation Embeddings"*
 
 **Author:** Jim McCormack | **Year:** 2026 | **Paper:** [link forthcoming]
 
